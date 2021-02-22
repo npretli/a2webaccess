@@ -51,7 +51,7 @@ h3{padding: 1%;
 }
 
 #trailtitle1{
-  background-color:#014869; 
+  background-color:#B35FFF; 
   outline: #000000 solid 5px;
   border: none;
   color: rgb(255, 255, 255);
@@ -63,7 +63,7 @@ h3{padding: 1%;
   padding: 1%;
 }
 #trailtitle2{
-  background-color:#014869;
+  background-color:#B35FFF;
   outline: #000000 solid 5px;
   border: none;
   color: whitesmoke;
@@ -383,7 +383,7 @@ code modified to include buttons
 
 /*DIV BLOCKFOR DOWNLOAD BUTTONS, CENTERED*/
 .dlbtn {
-  background-color: #3292CF;
+  background-color: #B35FFF;
   border: none;
   color: white;
   padding: 12px 30px;
@@ -393,7 +393,8 @@ code modified to include buttons
 }
 
 .dlbtn:hover {
-  background-color: RoyalBlue;
+  background-color: #DA2BED;
+  outline: #000000 solid 10px;
 }
 
 @media screen and (max-width: 600px) {
