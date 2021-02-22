@@ -221,13 +221,14 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   font-weight: bold;
   outline: #000000 solid 10px;
   color: black;
+}
 
 .dropdown-content a:hover {
   background-color: #ff00ae;
   color: black;
 }
 
-.dropdown:hover .dropdown-content
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
