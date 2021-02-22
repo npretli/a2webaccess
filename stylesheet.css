@@ -1,7 +1,13 @@
-/*CSS for GEOM101 Assignment 3 */
-/*Creator for each section stated in comment above code*/
+/* CSS for GEOM101 Assignment 3 */
+/* Creator for each section stated in comment above code */
 
-/*General formatting for the body of pages*/
+/* TITLE: Stylesheet */
+/* DESCRIPTION: Stylesheet document for Cascading Style Sheet code (CSS), which governs the Kawartha Lakes webpage layout as it pertains to style. */
+/* AUTHOR: Nicholas Pretli */
+/* KEYWORDS: Hiking, Kawartha Lakes, Style, Ontario, Outdoors */
+/* CHARACTER SET: UTF-8 */
+
+/* General formatting for the body of pages */
 
 body, html {
   height: 100%;
@@ -90,7 +96,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 /* Modified by Nicholas Pretli December 4, 2020; modified December 7, 2020 */
 
 .header-image {
-  background-image: url("photos/smokelakecrop.jpg");
+  background-image: url("smokelakecrop.jpg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -99,7 +105,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
 
 .header-image-ken {
-  background-image: url("photos/ken-reid.jpg");
+  background-image: url("ken-reid.jpg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,7 +127,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
   }
 
 .header-image-regional {
-  background-image: url("photos/kawartha-winter.jpg");
+  background-image: url("kawartha-winter.jpg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +136,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
 
 .header-image-qeii {
-  background-image: url("photos/lake2fall.jpg");
+  background-image: url("lake2fall.jpg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,7 +145,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
 
 .header-image-history {
-  background-image: url("photos/human-history-3.jpeg");
+  background-image: url("human-history-3.jpeg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +154,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
   
 .header-image-balsam {
-  background-image: url("photos/balsam-lake-5.jpg");
+  background-image: url("balsam-lake-5.jpg");
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -300,7 +306,7 @@ by: Nicholas Pretli
   float: left;
   width: 100%;
   height: 300px; 
-  background-image: url(/photos/kawartha-lakes-map.jpg);
+  background-image: url(kawartha-lakes-map.jpg);
   margin: 40px 30px 0px 20px; 
   box-sizing: border-box;
   border:2px solid white;
@@ -358,7 +364,7 @@ by: Nicholas Pretli
   margin: 300px auto;
   box-shadow: 0px 0px 10px 2px grey;
   border: 10px solid red;
-  background-image:url(/photos/four-people-outdoors.jpg)
+  background-image:url(four-people-outdoors.jpg)
 
 }
 
