@@ -52,6 +52,7 @@ h3{padding: 1%;
 
 #trailtitle1{
   background-color:#014869; 
+  outline: #000000 solid 5px;
   border: none;
   color: rgb(255, 255, 255);
   text-align: left;
@@ -62,7 +63,8 @@ h3{padding: 1%;
   padding: 1%;
 }
 #trailtitle2{
-  background-color:#014869; 
+  background-color:#014869;
+  outline: #000000 solid 5px;
   border: none;
   color: whitesmoke;
   text-align: left;
@@ -164,14 +166,14 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .topnav {
   overflow: hidden;
-  outline: #4CAF50 solid 10px;
-  background-color: #08598b;
+  outline: #000000 solid 5px;
+  background-color: #B35FFF;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -190,7 +192,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .dropdown .dropbtn {
   font-size: 17px;    
   border: none;
-  outline: none;
+  outline: #000000 solid 1px;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
@@ -201,7 +203,8 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #08598b;
+  outline: #000000 solid 3px;
+  background-color: #d41ce8;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -216,13 +219,13 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #011c75;
+  background-color: #da2bed;
   outline: #000000 solid 10px;
   color: white;
 }
 
 .dropdown-content a:hover {
-  background-color: #008000;
+  background-color: ##ff00ae;
   color: white;
 }
 
@@ -249,7 +252,7 @@ CSS concepts referenced from https://w3schools.com */
   left: 0;
   bottom: 0px;
   width: 100%;
-  background-color: #08598b;
+  background-color: #B35FFF;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
@@ -291,6 +294,7 @@ by: Nicholas Pretli
 
 .container{
   width: 90%;
+  overflow: hidden;
   overflow: hidden;
   background: skyblue;
   margin: 20px auto;
@@ -347,10 +351,11 @@ by: Nicholas Pretli
   font-family: 'century gothic';
   text-align: center;
   position: relative;
+  outline: #000000 solid 5px;
   left: 0;
   bottom: 0px;
   width: 100%;
-  background-color: #3292cf;
+  background-color: #B35FFF;
   color: white;
   text-align: center;
   padding: 0px;
