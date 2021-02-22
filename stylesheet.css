@@ -192,7 +192,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .dropdown .dropbtn {
   font-size: 17px;    
   border: none;
-  outline: #000000 solid 1px;
   color: black;
   padding: 14px 16px;
   background-color: inherit;
@@ -203,7 +202,6 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .dropdown-content {
   display: none;
   position: absolute;
-  outline: #000000 solid 3px;
   background-color: #d41ce8;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -220,13 +218,13 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #da2bed;
+  font-weight: bold;
   outline: #000000 solid 10px;
-  color: white;
-}
+  color: black;
 
 .dropdown-content a:hover {
   background-color: #ff00ae;
-  color: white;
+  color: black;
 }
 
 .dropdown:hover .dropdown-content
@@ -356,7 +354,8 @@ by: Nicholas Pretli
   bottom: 0px;
   width: 100%;
   background-color: #B35FFF;
-  color: white;
+  color: black;
+  font-weight: bold;
   text-align: center;
   padding: 0px;
 }
