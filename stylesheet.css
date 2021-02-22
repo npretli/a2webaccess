@@ -217,6 +217,7 @@ code modified from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #011c75;
+  outline: #000000 solid 10px;
   color: white;
 }
 
